@@ -1,0 +1,46 @@
+body{
+	font-size: 16px;
+	margin: 0px auto;
+	max-width: 1350px;
+	min-width: 1350px;
+	border: 1px solid red;
+}
+header{
+	border: 1px solid blue;
+}
+header nav ul{
+	border-style: none;
+	margin-left: -20px;
+}
+header nav ul li{
+	display: inline-block;
+	margin-right: 30px;
+}
+#buy{
+	float: right;
+}
+#first{
+	margin-top: 40px;
+	margin-left: 20px;
+	margin-bottom: 30px;
+}
+#hdimg{
+	float: right;
+	margin-top: 10px;
+	margin-right: 10px;
+}
+#shop{
+	float: right;
+	margin-top: -150px;
+}
+.letrachica{
+	font-size: 1.5em;
+}
+.letramediana{
+}
+.letragrande{
+	font-size: 3em;
+}
+.nito{
+	font-weight: bold;
+}
