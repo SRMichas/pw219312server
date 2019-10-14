@@ -5,6 +5,22 @@ body{
 	min-width: 1078px;
 }
 
+footer{
+	background: #4565b1;
+	color: white;
+}
+
+footer article{
+	border: 1px solid red;
+	display: inline-block;
+	
+	
+}
+footer article span{
+	border: 1px solid green;
+	padding-bottom: 5px;
+}
+
 header input{
 	float: right;				/*hace flotar componentes creando un efecto de superposicion*/
 	margin-right: -240px;
@@ -28,6 +44,14 @@ header nav ul li{
 #bgoffer{
 	left: -35px;
 	top: -410px;
+	position: relative;
+}
+#facebook{
+	left: 850px;
+	position: relative;
+}
+#twitter{
+	left: 860px;
 	position: relative;
 }
 
@@ -81,6 +105,16 @@ header nav ul li{
 #secc03art04{
 	padding-left: 25px;
 	padding-top: 40px;
+}
+#circulo{
+	border: 1px solid;
+	border-radius: 8px;
+	padding: 8px;
+}
+#art01{
+	padding-left: 30px;
+	padding-top: 90px;
+	padding-bottom: 20px;
 }
 .colorrosa{
 	color: #FF0099;
