@@ -1,0 +1,109 @@
+body{
+	/*display: grid;*/
+	font-size: 16px;
+	margin: 0px auto;
+	max-width: 1600px;
+	min-width: 1600px;
+}
+
+header{
+	background: #f0f0f0;
+	display: inline-block;
+}
+header img{
+	margin-right: -100px;
+	
+	margin-bottom: 50px;
+	border: 1px solid red;
+	vertical-align: top;
+}
+header input{
+	border-radius: 5px;
+	margin-left: 225px;
+	margin-right: 50px;
+	border: 1px solid red;
+	vertical-align: top;
+}
+
+section{
+	background: #2b2b2b;
+}
+
+#gu_logo{
+	margin-right: 100px;
+}
+
+#seccion01{
+	display: inline-block;
+}
+#seccion01 article{
+	border: 1px solid white;
+
+	display: inline-block;
+	vertical-align: top;
+	margin: 0px;
+	margin-bottom: 30px;
+	height: 336px;
+}
+#seccion01 article ul{
+	margin-top: 40px;
+	margin-bottom: 20px;
+	margin-left: 80px;
+}
+
+#seccion01 article ul li{
+	color: #a4a4a4;
+	list-style: none;
+	margin-bottom: 10px;
+}
+#secc02art03 ul{
+	border: 1px solid pink;
+	background: orange;
+}
+#lihome{
+	color: white;
+}
+#sc01art00{
+	
+}
+#sc01art01{
+	background: #b4d052;
+	width: 382.5px;
+	color: white;
+}
+#sc01art02{
+	background: #545454;
+	width: 382.5px;
+	color: lightgray;
+}
+#sc01art03{
+	background: #d42d3f;
+	width: 382.5px;
+	color: white;
+}
+#sc01art04{
+	background: #e4e4e4;
+	width: 382.5px;
+	color: #868686;
+}
+
+.nito{
+	font-weight: bold;
+}
+.letrablanca{
+	color: white;
+}
+#artspan{
+	color: white;
+	/*#b0b0b0*/
+}
+#seccion2{
+	border: 1px solid white;
+}
+#seccion2 article{
+	display: inline-block;
+	width: 30%;
+}
+.letragrande{
+	font-size: 1em;
+}
