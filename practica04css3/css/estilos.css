@@ -1,45 +1,126 @@
 body{
 	font-size: 16px;
 	margin: 0px auto;
-	max-width: 1350px;
-	min-width: 1350px;
-	border: 1px solid red;
-}
-header{
-	border: 1px solid blue;
+	max-width: 1345px;
+	min-width: 1345px;
 }
 header nav ul{
-	border-style: none;
+	list-style: none;
 	margin-left: -20px;
+	margin-bottom: 50px;
 }
 header nav ul li{
+	color: black;
 	display: inline-block;
 	margin-right: 30px;
 }
+#fvyears{
+	float: left;
+	margin-top: -110px;
+}
 #buy{
 	float: right;
+	margin-top: 150px;
 }
-#first{
-	margin-top: 40px;
-	margin-left: 20px;
-	margin-bottom: 30px;
-}
-#hdimg{
+#gotoshop{
 	float: right;
-	margin-top: 10px;
+	margin-top: 70px;
+}
+#firstbike{
+	margin-top: 30px;
+	margin-left: 20px;
+	margin-bottom: 60px;
+}
+#footH{
+	float: right;
+	margin-top: 15px;
 	margin-right: 10px;
 }
-#shop{
+#sc01 article{
+	display: inline-block;
+	vertical-align: top;
+}
+#sec01art01{
+	margin-left: 20px;
+	width: 50%;
+}
+#sec01art02{
+	width: 45%
+}
+#sc01art01art{
+	margin-top: 30px;
+	margin-bottom: 50px;
+}
+#sc01art01art img{
+	vertical-align: top;
+	width: 48%;
+}
+#bike{
+	height: 581px;
 	float: right;
-	margin-top: -150px;
+}
+#video02{
+	float: right;
+	margin-right: 2px;
+}
+#sec1hr{
+	border: 1px dashed black;
+	margin-bottom: 50px;
+}
+#logos{
+	margin-left: 20px;
+}
+#ftsc01art img{
+	vertical-align: middle;
+}
+#ftsc02 article{
+	display: inline-block;
+	margin-top: 40px;
+	vertical-align: top;
+}
+#ftsc02art01{
+	margin-left: 22px;
+	width: 16%;
+}
+#ftsc02art02{
+	margin-left: 22px;
+	width: 17%;
+}
+#ftsc02art03{
+	margin-left: 20px;
+	width: 14%;
+}
+#ftsc02art04{
+	margin-left: 20px;
+	width: 14%;
+}
+#ftsc02art05{
+	margin-left: 20px;
+	width: 24%;
+}
+#ftsc02 article hr{
+	margin: 10px 0px;
+}
+.letraverde{
+	color: #73f33d;
+}
+.letraplomo{
+	color: #818181;
+}
+.letramini{
+	font-size: 1.14em;
 }
 .letrachica{
-	font-size: 1.5em;
+	font-size: 1.3em;
 }
 .letramediana{
+	font-size: 1.45em;
 }
 .letragrande{
-	font-size: 3em;
+	font-size: 2.1em;
+}
+.letragigante{
+	font-size: 5.2em;
 }
 .nito{
 	font-weight: bold;
