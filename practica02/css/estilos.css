@@ -51,11 +51,24 @@ header nav ul li{
 }
 
 #segundaSeccion article{
-	/*color: #ea048e;*/
-	float: right;
+	padding-right: 122px; 
+	text-align: right;
 }
-
-
+#terceraSeccion article{
+	display: inline-block;
+	vertical-align: top;
+	width: 23%;
+}
+#terceraSeccion article img{
+	vertical-align: middle;
+}
+#terceraSeccion article input{
+	border-radius: 5px;
+}
+#terceraSeccion article input[type="button"]{
+	background: #8BC500;
+	color: white;
+}
 #secc01art01{
 	margin-left: 30px;	
 	width: 60%;
@@ -64,5 +77,27 @@ header nav ul li{
 #secc01art02{
 	margin-left: 50px;	
 	width: 30%;
+}
+#secc03art04{
+	padding-left: 25px;
+	padding-top: 40px;
+}
+.colorrosa{
+	color: #FF0099;
+}
+.colorverde{
+	color: #8BC500;
+}
+.colorazul{
+	color: #4267B3;
+}
+.letragrande{
+	font-size: 3.5em;
+}
+.letramediana{
+	font-size: 2em;
+}
+.nito{
+	font-weight: bold;
 }
 
