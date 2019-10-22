@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>Primer JavaScript</title>
+	<script>
+		function suma() {
+			// DOM= Document Object Model
+			var opn1 = document.getElementById('opn1').value;
+			var opn2 = document.getElementById('opn2').value;
+			document.getElementById('resultado').innerHTML= 
+			eval(opn1+"+"+opn2);
+			// parseInt(opn1) + parseInt(opn2);
+		}
+	</script>
+</head>
+<body>
+	<input type="text" id="opn1">
+	<input type="text" id="opn2">
+	<span id="resultado"></span>
+	<button onClick="suma();">
+		Suma
+	</button>
+</body>
+</html>
