@@ -19,6 +19,46 @@
 			text-align: center;
 		}
 	</style>
+	<script>
+		var operador = ""; //variable global
+		function numeros(num){
+			var dat1 = document.getElementById('opn1').value;
+			var dat2 = document.getElementById('opn2').value;
+			if( operador == "" ){
+				if( dat1 == "0"){
+					document.getElementById('opn1').value="";
+				}
+				document.getElementById('opn1').value+=num;
+			}else{
+				if( dat2 == "0"){
+					document.getElementById('opn2').value="";
+				}
+				document.getElementById('opn2').value+=num;
+			}
+		}
+		function operadores(op) {
+			operador = op;
+		}
+		function resultado(){
+			var dat1 = document.getElementById('opn1').value;
+			var dat2 = document.getElementById('opn2').value;
+			if( operador == "/"){
+				if( dat2 == "0"){
+					alert("No se debe dividir entre cero");
+					ce();
+					return;
+				}
+			}
+			document.getElementById('opn1').value=
+			eval(dat1+operador+dat2);
+			document.getElementById('opn2').value="0";
+		}
+		function ce() {
+			document.getElementById('opn1').value="0";
+			document.getElementById('opn2').value="0";
+			operador = "";
+		}
+	</script>
 </head>
 <body>
 	<!-- <span id="lin1"></span>
@@ -43,45 +83,45 @@
 	<table border align=center>
 		<tr>
 			<td colspan=4>
-				<input type="text" id="opn1" value="0">
+				<input type="text" id="opn1" value="0" disabled>
 			</td>
 		</tr>
 		<tr>
 			<td colspan=4>
-				<input type="text" id="opn2" value="0">
+				<input type="text" id="opn2" value="0" disabled>
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<button>7</button>
-				<button>8</button>
-				<button>9</button>
-				<button>+</button>
+				<button onClick="numeros(7);">7</button>
+				<button onClick="numeros(8);">8</button>
+				<button onClick="numeros(9);">9</button>
+				<button onClick="operadores('+');">+</button>
 			</td>
 			
 		</tr>
 		<tr>
 			<td>
-				<button>4</button>
-				<button>5</button>
-				<button>6</button>
-				<button>-</button>
+				<button onClick="numeros(4);">4</button>
+				<button onClick="numeros(5);">5</button>
+				<button onClick="numeros(6);">6</button>
+				<button onClick="operadores('-');">-</button>
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<button>1</button>
-				<button>2</button>
-				<button>3</button>
-				<button>*</button>
+				<button onClick="numeros(1);">1</button>
+				<button onClick="numeros(2);">2</button>
+				<button onClick="numeros(3);">3</button>
+				<button onClick="operadores('*');">*</button>
 			</td>
 		</tr>
 		<tr>
 			<td>
-				<button>=</button>
-				<button>0</button>
-				<button>CE</button>
-				<button>/</button>
+				<button onClick="resultado();">=</button>
+				<button onClick="numeros(0);">0</button>
+				<button onClick="ce();">CE</button>
+				<button onClick="operadores('/');">/</button>
 			</td>
 		</tr>
 	</table>
