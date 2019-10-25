@@ -1,0 +1,143 @@
+body{
+	font-size: 16px;
+	margin: 0px auto;
+	max-width: 1990px;
+	min-width: 1990px;
+}
+#sc01 article{
+	display: inline-block;
+	vertical-align: top;
+}
+#sc02 article{
+	display: inline-block;
+	vertical-align: top;
+}
+#sc01 img{
+	float: left;
+	height: 540px;
+	margin-left: 160px;
+	margin-top: 35px;
+}
+
+#sc01art01{
+	background: #f1efef;
+	color: black;
+	text-align: center;
+	width: 60%;
+}
+#sc01art01 span{
+	display: inline-block;
+}
+#sc01art01sp01{
+	margin-top: 150px;
+	margin-bottom: 80px;
+
+}
+#sc01art01sp02{
+	margin-left: 590px;
+	margin-right: 170px;
+	margin-top: -320px;
+	float: left;
+	/*margin-left: 80px;
+	margin-right: 20px;
+	margin-top: -450px;*/
+	/*margin-right: 60px;
+	margin-left: 60px;*/
+}
+#sc01art01sp03{
+	margin-top: 60px;
+}
+#sc01art02{
+	background: #606060;
+	color: white;
+	height: 575px;
+	margin-left: -3px;
+	text-align: center;
+	width: 39.8%;
+}
+#sc01art02 span{
+	display: inline-block;
+}
+#sc02art02sp01{
+	
+}
+#sc02art02sp01{
+
+}
+#sc01art02sp01{
+	margin-top: 150px;
+	margin-bottom: 40px;
+}
+#sc01art02sp02{
+	margin: 0px 140px;
+}
+#sc01art02sp03{
+	margin-top: 50px;
+}
+
+#sc02art01{
+	background: #54aced;
+	color: white;
+	height: 355px;
+	width: 45%;
+}
+#sc02art01 img{
+	width: 12%;
+	margin-top: 90px;
+	margin-left: 115px;
+}
+#sc02art01 span{
+	display: inline-block;
+	text-align: center;
+	margin-left: 253px;
+	margin-right: 141px;
+	margin-top: -90px;
+}
+#sc02art02{
+	background: #d0dccf;
+	color: black;
+	height: 355px;
+	margin-left: -4px;
+	text-align: center;
+	width: 25%;
+}
+#sc02art02 span{
+	display: inline-block;
+	/*margin: 0px 60px;*/
+}
+#sc02art02sp01,#sc02art03sp01{
+	margin-top: 110px;
+	margin-bottom: 30px;
+
+}
+#sc02art03{
+	background: #787777;
+	color: white;
+	height: 355px;
+	margin-left: -3.8px;
+	text-align: center;
+	width: 29.83%;
+}
+#sc02art03 span{
+	display: inline-block;
+}
+.borde{
+	border-radius: 60px;
+	border: 2.5px solid;
+	padding: 15px 35px;
+}
+.letrachica{
+	font-size: 1.45em;
+}
+.letramediana{
+	font-size: 1.6em;
+}
+.letramediana2{
+	font-size: 2em;
+}
+.letragrande{
+	font-size: 2.3em;
+}
+.nito{
+	font-weight: bold;
+}
