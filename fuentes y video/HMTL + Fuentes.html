@@ -1,0 +1,33 @@
+ <!DOCTYPE html>
+ <html lang="es">
+ <head>
+ 	<meta charset="UTF-8">
+ 	<title>Fuentes</title>
+ 	<!--linea para refrenciar fuentes en linea-->
+ 	<link href="https://fonts.googleapis.com/css?family=Big+Shoulders+Text&display=swap" rel="stylesheet">
+ 	<style>
+ 		
+ 		/*Se debe agregar para que las fuentes descargadas funcionen*/
+ 		@font-face{
+ 			font-family: wea;
+ 			src: url("wea/LiuJianMaoCao-Regular.ttf");
+ 		}
+ 		#txtTextoReferenciado{
+ 			font-size: 16px;
+ 			font-family: 'Big Shoulders Text', cursive;
+ 		}
+ 		#txtTextoDescargado{
+			font-family: 'wea', cursive;
+ 		}
+ 	</style>
+ </head>
+ <body>
+ 	<span id="txtTextoReferenciado">
+ 		Fuente Big+Shoulders+Text de Google (Referenciado)
+ 	</span>
+ 	<br>
+ 	<span id="txtTextoDescargado">
+ 		Fuente de Google (Descargado)
+ 	</span>
+ </body>
+ </html>
